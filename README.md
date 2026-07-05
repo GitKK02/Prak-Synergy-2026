@@ -15,3 +15,18 @@
 
 ```bash
 python -m venv venv
+
+### Windows
+```bash
+venv\Scripts\activate
+### Linux/MacOS
+```bash
+source venv/bin/activate
+
+### Установить зависимости
+```bash
+pip install -r requirements.txt
+
+### Запуск
+```bash
+python chatbot.py
